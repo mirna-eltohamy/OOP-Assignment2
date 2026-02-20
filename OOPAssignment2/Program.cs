@@ -16,3 +16,27 @@
 //yes, a property can contain logic
 //public int salary { get { return initialSalary + bonus; } }
 #endregion
+
+#region p1q3
+//a)Indexer, allows indexed access to object like an array - obj[i] 
+//b) throws indexOutOfRangeException 
+//to make safe:
+//public string this[int index]
+//{
+//    get
+//    {
+//        if (index < 0 || index >= names.Length)
+//            throw new ArgumentOutOfRangeException(nameof(index));
+//        return names[index];
+//    }
+//    set
+//    {
+//        if (index < 0 || index >= names.Length)
+//            throw new ArgumentOutOfRangeException(nameof(index));
+//        names[index] = value;
+//    }
+//}
+//c)yes, indexers can be overloaded with different parameter types and counts
+//for example: public int this[string name] &  public string this[int index]
+//indexer allows access using name & other using index
+#endregion
