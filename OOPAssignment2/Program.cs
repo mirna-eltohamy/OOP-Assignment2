@@ -40,3 +40,11 @@
 //for example: public int this[string name] &  public string this[int index]
 //indexer allows access using name & other using index
 #endregion
+
+#region p1q4
+//a) static TotalOrders: class member that is shared among all its instances
+//   ,while item: is instance member that is unique to each object of the class
+
+//b) No, static methods cannot access instance members directly (Item) because they do not belong to any specific instance of the class.
+//   static methods can only access static members of the class.
+#endregion
